@@ -387,6 +387,7 @@ $result = $amountCart->fetch_assoc();
                                             <input type="checkbox" id="paypal" required>
                                             <span class="checkmark"></span>
                                         </label>
+                                        <p>You have to choose the payment method</p>
                                     </div>
                                     <input type="hidden" value="<?= $_SESSION['user_id']; ?>" name="cart_id">
                                     <button type="submit" class="site-btn" name="pay">PLACE ORDER</button>
